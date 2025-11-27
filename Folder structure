@@ -1,0 +1,21 @@
+christian-prayer-board/
+│
+├── public/
+│   ├── index.php
+│   ├── login.php
+│   ├── register.php
+│   ├── logout.php
+│   ├── submit_post.php
+│   ├── mark_answered.php
+│   ├── style.css
+│   └── script.js
+│
+├── src/
+│   ├── db.php
+│   └── functions.php
+├── config/
+│   └── config.php
+├── database/
+│   └── database.sql
+├── .gitignore
+└── README.md

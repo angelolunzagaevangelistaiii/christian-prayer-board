@@ -1,0 +1,17 @@
+# Config file with sensitive DB credentials
+/config/config.php
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PHPStorm or VSCode folders
+.idea/
+.vscode/
+
+# Node or vendor folders if any
+node_modules/
+vendor/
