@@ -1,17 +1,75 @@
-# Config file with sensitive DB credentials
-/config/config.php
+############################
+# Sensitive Files
+############################
 
-# OS files
-.DS_Store
+# Database credentials (never push these)
+config/config.php
+config/*.php
+
+# Environment variables (if ever used)
+.env
+
+############################
+# System / OS Files
+############################
+
+# Windows
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Logs
-*.log
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# PHPStorm or VSCode folders
-.idea/
+# Linux
+*~
+
+############################
+# IDE / Editor Files
+############################
+
+# VSCode
 .vscode/
 
-# Node or vendor folders if any
-node_modules/
+# PHPStorm / JetBrains
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+############################
+# Logs & Temp files
+############################
+
+*.log
+*.tmp
+*.bak
+*.cache
+
+############################
+# PHP Composer (if ever used)
+############################
+
 vendor/
+composer.lock
+
+############################
+# Node (if ever added for frontend tools)
+############################
+
+node_modules/
+npm-debug.log
+package-lock.json
+
+############################
+# Backup / Export files
+############################
+
+*.sql
+*.sql.gz
+*.zip
+*.tar
+*.tar.gz
