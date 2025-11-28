@@ -24,10 +24,11 @@ CREATE TABLE posts (
 
 -- Sample user
 INSERT INTO users (name,email,password) VALUES
-('Test User','test@example.com','$2y$10$QmVdV1C7IGqN9dW9I5tz1e9O5.1pLX/xmOZbDxYOfpEiyrJSpO1fu');
+('Test User','test@example.com','$2y$10$Ap2l0dx0uSuaoyWSQn2ToOkyp6UpH9x0LulzjhQYU7lnsrQ/szDXC');
 -- Password: 123456
 
 -- Sample posts
 INSERT INTO posts (user_id,type,title,content) VALUES
 (1,'prayer','Healing for my friend','Please pray for my friend\'s healing'),
 (1,'testimony','God answered prayer','I experienced God\'s blessing last week');
+
